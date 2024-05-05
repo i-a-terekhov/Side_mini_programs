@@ -29,7 +29,7 @@ class ThreadsExample(Thread):
 started_at = time.time()
 example = ThreadsExample()
 
-example.run(1000)
+example.run(5)
 
 ended_at = time.time()
 elapsed = round(ended_at - started_at, 4)
